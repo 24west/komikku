@@ -26,15 +26,15 @@ import androidx.compose.ui.graphics.Color
 internal object CatppuccinColorScheme : BaseColorScheme() {
 
     override val darkScheme = darkColorScheme(
-        primary = Color(0xFFCBA6F7),
+        primary = Color(0xffb4befe),
         onPrimary = Color(0xFF11111B),
-        primaryContainer = Color(0xFFCBA6F7),
+        primaryContainer = Color(0xffb4befe),
         onPrimaryContainer = Color(0xFF11111B),
-        secondary = Color(0xFFCBA6F7), // Unread badge
+        secondary = Color(0xffb4befe), // Unread badge
         onSecondary = Color(0xFF11111B), // Unread badge text
         secondaryContainer = Color(0xFF313244), // Navigation bar selector pill & progress indicator (remaining)
-        onSecondaryContainer = Color(0xFFCBA6F7), // Navigation bar selector icon
-        tertiary = Color(0xFFCBA6F7), // Volume and brightness bars, Downloaded badge
+        onSecondaryContainer = Color(0xffb4befe), // Navigation bar selector icon
+        tertiary = Color(0xffb4befe), // Volume and brightness bars, Downloaded badge
         onTertiary = Color(0xFF11111B), // Downloaded badge text
         tertiaryContainer = Color(0xFF1E1E2E),
         onTertiaryContainer = Color(0xFFCDD6F4),
@@ -48,12 +48,12 @@ internal object CatppuccinColorScheme : BaseColorScheme() {
         onSurface = Color(0xFFCDD6F4),
         surfaceVariant = Color(0xFF1E1E2E), // Navigation bar background (ThemePrefWidget)
         onSurfaceVariant = Color(0xFFCDD6F4), // Button (unselected)
-        outline = Color(0xFFCBA6F7),
+        outline = Color(0xffb4befe),
         outlineVariant = Color(0xFF585B70), // Outlines for buttons
         scrim = Color(0xFF11111B),
         inverseSurface = Color(0xFFEFF1F5), // Snackbar or whatever they called
         inverseOnSurface = Color(0xFF4C4F69), // Snackbar text
-        inversePrimary = Color(0xFF8839EF), // Snackbar accent
+        inversePrimary = Color(0xffcba6f7), // Snackbar accent
         surfaceDim = Color(0xFF181825),
         surfaceBright = Color(0xFF313244),
         surfaceContainerLowest = Color(0xFF181825),
@@ -64,15 +64,15 @@ internal object CatppuccinColorScheme : BaseColorScheme() {
     )
 
     override val lightScheme = lightColorScheme(
-        primary = Color(0xFF8839EF),
+        primary = Color(0xff7287fd),
         onPrimary = Color(0xFFDCE0E8),
-        primaryContainer = Color(0xFF8839EF),
+        primaryContainer = Color(0xff7287fd),
         onPrimaryContainer = Color(0xFFDCE0E8),
-        secondary = Color(0xFF8839EF), // Unread badge
+        secondary = Color(0xff7287fd), // Unread badge
         onSecondary = Color(0xFFDCE0E8), // Unread badge text
         secondaryContainer = Color(0xFFCDD0DA), // Navigation bar selector pill & progress indicator (remaining)
-        onSecondaryContainer = Color(0xFF8839EF), // Navigation bar selector icon
-        tertiary = Color(0xFF8839EF), // Volume and brightness bars, Downloaded badge
+        onSecondaryContainer = Color(0xff7287fd), // Navigation bar selector icon
+        tertiary = Color(0xff7287fd), // Volume and brightness bars, Downloaded badge
         onTertiary = Color(0xFFDCE0E8), // Downloaded badge text
         tertiaryContainer = Color(0xFFEFF1F5),
         onTertiaryContainer = Color(0xFF4C4F69),
